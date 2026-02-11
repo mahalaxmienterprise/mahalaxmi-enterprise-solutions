@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mahalaxmienterprisesolutions.in/sitemap.xml
