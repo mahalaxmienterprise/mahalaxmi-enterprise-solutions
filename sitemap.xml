@@ -1,8 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://mahalaxmienterprisesolutions.in/</loc>
-    <lastmod>2026-02-09</lastmod>
-    <priority>1.0</priority>
+    <loc>https://mahalaxmienterprisesolutions.github.io/</loc>
+    <lastmod>2026-02-14</lastmod>
+    <priority>1.00</priority>
   </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/about.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/services.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/transaction-processing.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/operational-support.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/finance-accounting.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/document-management.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/crm-data-support.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/industries.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/process.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/careers.html</loc>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/contact.html</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/privacy.html</loc>
+    <priority>0.40</priority>
+  </url>
+
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.github.io/terms.html</loc>
+    <priority>0.40</priority>
+  </url>
+
 </urlset>

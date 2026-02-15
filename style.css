@@ -1,0 +1,354 @@
+/* ============================= */
+/* Global Styles */
+/* ============================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    transition: 0.3s ease;
+}
+
+/* ============================= */
+/* Header */
+/* ============================= */
+
+header {
+    background: #1f3c88;
+    color: #fff;
+    padding: 20px 40px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-area img {
+    height: 50px;
+    width: auto;
+}
+
+.company-name {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    opacity: 0.85;
+}
+
+/* Active Navigation */
+
+nav a.active,
+.dropbtn.active {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 3px;
+}
+
+/* ============================= */
+/* Dropdown Menu */
+/* ============================= */
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 240px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    border-radius: 6px;
+    overflow: hidden;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+    font-weight: 500;
+}
+
+.dropdown-content a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* ============================= */
+/* Sections */
+/* ============================= */
+
+.section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section h2 {
+    color: #1f3c88;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    color: #1f3c88;
+}
+
+/* ============================= */
+/* Hero Section */
+/* ============================= */
+
+.hero {
+    background: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 850px;
+    margin: auto;
+    font-size: 18px;
+    color: #555;
+}
+
+/* ============================= */
+/* Cards & Steps */
+/* ============================= */
+
+.card,
+.step {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+
+.card h3,
+.card h4,
+.step h3 {
+    margin-top: 0;
+    color: #1f3c88;
+}
+
+/* ============================= */
+/* Layout Columns */
+/* ============================= */
+
+.columns {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 280px;
+}
+
+/* ============================= */
+/* Grid Layout */
+/* ============================= */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.grid div {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+
+/* ============================= */
+/* Forms */
+/* ============================= */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #1f3c88;
+    outline: none;
+}
+
+/* ============================= */
+/* Buttons */
+/* ============================= */
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #1f3c88;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button:hover {
+    background: #162c63;
+}
+
+/* ============================= */
+/* CTA Section */
+/* ============================= */
+
+.cta {
+    background: #1f3c88;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* ============================= */
+/* Footer */
+/* ============================= */
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ============================= */
+/* WhatsApp Floating Button */
+/* ============================= */
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-float img {
+    width: 55px;
+    height: 55px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    border-radius: 50%;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.08);
+}
+
+/* ============================= */
+/* Responsive */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    nav a,
+    .dropbtn {
+        margin-right: 10px;
+    }
+
+    .hero h2 {
+        font-size: 26px;
+    }
+
+    .section {
+        padding: 40px 15px;
+    }
+}
