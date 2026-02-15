@@ -170,28 +170,31 @@ dropdown.style.display = "none";
 <!-- EmailJS Integration -->
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script>
-(function(){
-emailjs.init("f9VZRnABh3yCbtqcj");
-})();
+document.addEventListener("DOMContentLoaded", function() {
 
-document.getElementById("contact-form")
-.addEventListener("submit", function(event) {
-event.preventDefault();
+    emailjs.init("f9VZRnABh3yCbtqcj");
 
-emailjs.sendForm(
-"service_tj2o734",
-"template_5fhorl4",
-this
-)
-.then(function() {
-alert("Inquiry sent successfully!");
-document.getElementById("contact-form").reset();
-}, function(error) {
-alert("Failed to send inquiry. Please try again.");
-console.log(error);
-});
+    document.getElementById("contact-form")
+    .addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        emailjs.sendForm(
+            "service_spfdmxi",
+            "template_5fhorl4",
+            this
+        )
+        .then(function() {
+            alert("Inquiry sent successfully!");
+            document.getElementById("contact-form").reset();
+        }, function(error) {
+            alert("Failed to send inquiry. Please try again.");
+            console.log("EmailJS Error:", error);
+        });
+    });
+
 });
 </script>
 
 </body>
+
 </html>
