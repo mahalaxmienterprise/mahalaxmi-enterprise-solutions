@@ -1,8 +1,6 @@
 # Mahalaxmi Enterprise Solutions
 
-Official website repository for **Mahalaxmi Enterprise Solutions**.
-
-This website presents our Business Process Management (BPM), Transaction Processing, Finance & Accounting Support, Operational Support, Document Management, and CRM & Data Support services.
+Official website repository for **Mahalaxmi Enterprise Solutions**, a GST-registered Indian business providing structured underwriting and transaction processing support services.
 
 ---
 
@@ -14,10 +12,21 @@ https://mahalaxmienterprisesolutions.github.io
 
 ## 📌 About the Company
 
-Mahalaxmi Enterprise Solutions provides structured, process-driven backend support services for businesses across industries.  
-We focus on operational efficiency, compliance accuracy, and scalable support models.
+Mahalaxmi Enterprise Solutions delivers process-driven backend operational support to growing insurance agencies and businesses.
 
-Location: Hyderabad, Telangana, India
+Our service focus includes:
+
+- Underwriting documentation review support  
+- Policy transaction processing  
+- Backend workflow management  
+- Operational support services  
+- Finance & accounting assistance  
+- CRM and structured data support  
+
+We emphasize operational discipline, confidentiality, defined turnaround standards, and scalable support models.
+
+**Location:** Hyderabad, Telangana, India  
+**GSTIN:** 36AHZPN0438M1ZL  
 
 ---
 
@@ -37,6 +46,7 @@ Location: Hyderabad, Telangana, India
 - `contact.html`  
 - `privacy.html`  
 - `terms.html`  
+- `gst.html`  
 - `404.html`  
 - `style.css`  
 - `sitemap.xml`  
@@ -49,7 +59,7 @@ Location: Hyderabad, Telangana, India
 
 This website is deployed using **GitHub Pages**.
 
-All files are stored in the root directory for proper GitHub Pages hosting.
+All production files are maintained in the root directory for proper static hosting configuration.
 
 ---
 
@@ -61,8 +71,6 @@ info@mahalaxmienterprisesolutions.in
 contact@mahalaxmienterprisesolutions.in  
 
 ---
-
-## ⚖️ License
 
 © 2026 Mahalaxmi Enterprise Solutions.  
 All rights reserved.
