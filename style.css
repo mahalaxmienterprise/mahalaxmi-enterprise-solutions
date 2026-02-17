@@ -359,3 +359,35 @@ footer a:hover {
 body {
     padding-bottom: 100px;
 }
+/* ===== Footer Text Contrast Fix ===== */
+
+footer {
+    color: #ffffff;
+}
+
+.footer-column p,
+.footer-bottom p {
+    color: #ffffff;
+    opacity: 1;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ===== CTA Text Contrast Fix ===== */
+
+.cta p {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.cta h3 {
+    color: #ffffff;
+}
+
