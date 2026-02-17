@@ -356,8 +356,6 @@ footer a:hover {
         padding: 40px 15px;
     }
 }
-
-/* Prevent WhatsApp button from blocking content */
-.section {
-    padding-bottom: 120px;
+body {
+    padding-bottom: 100px;
 }
