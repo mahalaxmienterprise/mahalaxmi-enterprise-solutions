@@ -3,7 +3,6 @@
 
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/</loc>
-    <lastmod>2026-02-14</lastmod>
     <priority>1.00</priority>
   </url>
 
@@ -14,37 +13,45 @@
 
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/services.html</loc>
-    <priority>0.80</priority>
+    <priority>0.90</priority>
   </url>
 
+  <!-- Individual Service Pages -->
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/transaction-processing.html</loc>
-    <priority>0.70</priority>
+    <priority>0.75</priority>
   </url>
 
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/operational-support.html</loc>
-    <priority>0.70</priority>
+    <priority>0.75</priority>
   </url>
 
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/finance-accounting.html</loc>
-    <priority>0.70</priority>
+    <priority>0.75</priority>
   </url>
 
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/document-management.html</loc>
-    <priority>0.70</priority>
+    <priority>0.75</priority>
   </url>
 
+
+
+<!-- 
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/crm-data-support.html</loc>
-    <priority>0.70</priority>
+    <priority>0.75</priority>
   </url>
+-->
 
+
+
+  <!-- Industry & Process -->
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/industries.html</loc>
-    <priority>0.70</priority>
+    <priority>0.80</priority>
   </url>
 
   <url>
@@ -52,6 +59,13 @@
     <priority>0.70</priority>
   </url>
 
+  <!-- Special Service -->
+  <url>
+    <loc>https://mahalaxmienterprisesolutions.in/hyperionessbase.html</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Business Pages -->
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/careers.html</loc>
     <priority>0.60</priority>
@@ -59,9 +73,10 @@
 
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/contact.html</loc>
-    <priority>0.90</priority>
+    <priority>0.95</priority>
   </url>
 
+  <!-- Legal -->
   <url>
     <loc>https://mahalaxmienterprisesolutions.in/privacy.html</loc>
     <priority>0.40</priority>
