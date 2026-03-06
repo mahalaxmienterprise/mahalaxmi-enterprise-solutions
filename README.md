@@ -39,7 +39,6 @@ We emphasize operational discipline, confidentiality, defined turnaround standar
 - `operational-support.html`  
 - `finance-accounting.html`  
 - `document-management.html`  
-- `crm-data-support.html`  
 - `industries.html`  
 - `process.html`  
 - `careers.html`  
@@ -74,3 +73,4 @@ contact@mahalaxmienterprisesolutions.in
 
 © 2026 Mahalaxmi Enterprise Solutions.  
 All rights reserved.
+
